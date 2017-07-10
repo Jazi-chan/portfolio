@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body {
+    background-color: beige;
+}
+h1 {
+	border : 1px solid black;
+	padding : 30px;
+    font-family:"Merienda";
+}
+p {
+    font-family:"Fondamento";
+    font-size:20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th {
+    text-align: left;
+}
+th, td {
+	font-family:"Fondamento";
+	font-size:18;
+    padding: 8px;
+}
+h2{
+		font-family:"Merienda";
+}
+div.blacksection {
+	background-color:black;
+	color:white;
+	padding:20px;"
+}
