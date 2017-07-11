@@ -2,16 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda');
 
 body {
-    background-color: beige;
+    background-image: url(http://cdn.wallpapersafari.com/11/92/TduYC2.jpg);
+    background-position: 197px 0px;
+    font-family:"Fondamento";
 }
 h1 {
-	border : 1px solid black;
+	text-align:center;
 	padding : 30px;
     font-family:"Merienda";
 }
 p {
     font-family:"Fondamento";
     font-size:20px;
+}
+table{
+	background-image:url(https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg);
 }
 table, th, td {
     border: 1px solid black;
@@ -28,8 +33,27 @@ th, td {
 h2{
 		font-family:"Merienda";
 }
+div.content{
+	margin-left:15%;
+	position:relative;
+}
+div.sidebar{
+	text-align:center;
+	width:15%;
+	height:100%;
+	background-size:cover;
+	background-color:white;
+	position:fixed;
+}
+img.cat{
+	 width:250px;
+	 height:140px;
+}
 div.blacksection {
 	background-color:black;
 	color:white;
 	padding:20px;"
+}
+.about{
+	display:none;
 }
